@@ -30,6 +30,7 @@
 	-o-background-clip: text;
 	background-clip: text;
 	color:transparent;
+	/*文字阴影效果，可兼容目前主流浏览器*/
 	-webkit-text-shadow: 5px 5px 6px #98FB98;
 	-moz-text-shadow: 5px 5px 6px #98FB98;
 	-o-text-shadow: 5px 5px 6px #98FB98;
