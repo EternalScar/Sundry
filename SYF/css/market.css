@@ -1,7 +1,15 @@
+.market-body{
+	border: 1px solid red;
+}
 .market-logo{
 	float: left;
 }
-
+.market-menu{
+	margin-left: 50px;
+	width: 430px;
+	padding-left: 30px;
+	margin-top: 20px;	
+}
 /*自定义字体样式，该样式为汉仪细行楷*/
 @font-face {
 	font-family:XingkaiThin;
