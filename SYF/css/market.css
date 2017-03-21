@@ -1,0 +1,35 @@
+.market-logo{
+	float: left;
+}
+
+/*自定义字体样式，该样式为汉仪细行楷*/
+@font-face {
+	font-family:XingkaiThin;
+	src: url(..//fonts/XingkaiThin.ttf);
+}
+/*logo文字样式*/
+.market-logo>span:nth-child(1){
+	font-family: "XingkaiThin";
+	font-weight: bolder;
+	font-size: 50px;
+	/*文字渐变色，可兼容目前主流浏览器*/
+	background: -webkit-linear-gradient(blue 24%,red 34%,yellow);
+	background: -moz-linear-gradient(blue 24%,red 34%,yellow);
+	background: -o-linear-gradient(blue 24%,red 34%,yellow);
+	background: linear-gradient(blue 24%,red 34%,yellow);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-o-background-clip: text;
+	background-clip: text;
+	color:transparent;
+	-webkit-text-shadow: 5px 5px 6px #98FB98;
+	-moz-text-shadow: 5px 5px 6px #98FB98;
+	-o-text-shadow: 5px 5px 6px #98FB98;
+	text-shadow: 5px 5px 6px #98FB98;
+}
+/*网站logo简介的样式*/
+.market-logo>span:nth-child(2){
+	font-family: XingkaiThin;
+	font-size: 20px;
+	color: #800080;
+}
