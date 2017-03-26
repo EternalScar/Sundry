@@ -53,4 +53,8 @@ ul li{
 /*搜索框的样式*/
 .seek{
 	border: solid 1px green;
+	height: 60px;
+	width: 100%;
+	
+	background-color: rgba(0,0,255,0.2);
 }
