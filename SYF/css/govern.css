@@ -1,0 +1,10 @@
+/**
+ * 此css文件为轮播图左右两侧div的CSS样式
+ */
+.indent,.favorable,.commodity{
+	border: 1px solid red;
+}
+h4{
+	font-family: "楷体";
+	font-weight: bold;
+}

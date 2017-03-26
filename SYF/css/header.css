@@ -1,3 +1,7 @@
+/**
+ * 此css文件为标题栏、导航栏的css样式
+ */
+
 .market-body{
 	border: 1px solid red;
 }
@@ -5,10 +9,14 @@
 	float: left;
 }
 .market-menu{
-	margin-left: 50px;
-	width: 430px;
-	padding-left: 30px;
+	border: solid 1px blue;
+	/*margin-left: 50px;*/
+	width: 450px;
+	/*padding-left: 30px;*/
 	margin-top: 20px;	
+}
+ul li{
+	border: solid 1px yellow;
 }
 /*自定义字体样式，该样式为汉仪细行楷*/
 @font-face {
@@ -41,4 +49,8 @@
 	font-family: XingkaiThin;
 	font-size: 20px;
 	color: #800080;
+}
+/*搜索框的样式*/
+.seek{
+	border: solid 1px green;
 }
